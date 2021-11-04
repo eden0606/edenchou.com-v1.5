@@ -1,0 +1,68 @@
+/* .main-container {
+
+} */
+
+.parallax-container {
+  background-image: url('./img/blue-ice.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.intro {
+  width: 800px;
+  height: 260px;
+  background: rgba(0, 28, 33, 0.75);
+  border-radius: 30px;
+}
+
+.intro-text-container {
+  text-align: center;
+}
+
+.intro-title {
+  color: white;
+  font-size: 120px;
+  font-weight: bold;
+  margin: 3% 0 2% 0;
+}
+
+.intro-subtitle {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-container {
+  width: 100vw;
+  height: 100vh;
+  background: #001C21;
+  clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 85%);
+  -webkit-clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 85%);
+}
+
+.project-title-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-title {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  padding: 5%;
+}
+
+.project-card-container {
+  display: flex;
+  justify-content: center;
+}

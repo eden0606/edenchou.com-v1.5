@@ -1,0 +1,57 @@
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+  .nav-item {
+    font-size: 30px;
+    padding: 3% 0;
+    font-weight: bold;
+    color: white;
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  .nav-fade {
+    display: block;
+    position: relative;
+    padding: 0.3em 0;
+  }
+  
+  .nav-fade::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    height: 0.2em;
+    background-color: #001C21;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .nav-fade:hover::after,
+  .nav-fade:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+  }
+  
+  .nav-fade::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+  }
+  
+  .nav-fade:hover::after,
+  .nav-fade:focus::after{
+    transform: scale(1);
+  }
+  

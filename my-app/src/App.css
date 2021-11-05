@@ -1,20 +1,16 @@
-/* .main-container {
-
-} */
-
 .parallax-container {
   background-image: url('./img/blue-ice.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 
 .intro-container {
   display: flex;
   justify-content: center;
-  margin: 10%;
+  padding: 10% 10% 20% 10%;
 }
 
 .intro {
@@ -44,10 +40,10 @@
 
 .project-container {
   width: 100vw;
-  height: 100vh;
   background: #001C21;
-  clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 85%);
-  -webkit-clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 85%);
+  clip-path: polygon(0 300px, 100% 0%, 100% 100%, 0% 90%);
+  -webkit-clip-path: polygon(0 300px, 100% 0%, 100% 100%, 0 95%);
+  padding-bottom: 15%;
 }
 
 .project-title-container {
@@ -60,9 +56,90 @@
   font-weight: bold;
   color: white;
   padding: 5%;
+  margin-bottom: 0%;
 }
 
 .project-card-container {
   display: flex;
   justify-content: center;
+}
+
+.project-card-container-last {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30%;
+}
+
+.semi-transparent-container {
+  display: flex;
+  justify-content: center;
+  padding: 3.5% 7% 3.5% 7% ;
+}
+
+.about-container {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 28, 33, 0.75);
+  border-radius: 30px;
+}
+
+.about-img {
+  width: 335px;
+  height: 335px;
+  border-radius: 30px;
+}
+
+.section-title {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  padding: 4%;
+  margin: 0;
+  text-align: center;
+}
+
+.about-content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.about-content {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 2rem;
+}
+
+.section-subtitle {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  padding: 4%;
+  margin: 0;
+  text-align: center;
+}
+
+.connect-container {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 28, 33, 0.75);
+  border-radius: 30px;
+}
+
+.connect-icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 6%;
+}
+
+.icon {
+  color: white;
+  transition: all .2s ease-in-out;
+  font-size: 120px;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }

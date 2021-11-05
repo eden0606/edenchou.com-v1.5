@@ -1,0 +1,136 @@
+.card-container {
+    width: 600px;
+    height: 470px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 3%;
+}
+
+.card-title {
+    color: #001C21;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 3%;
+}
+
+.pipe-color {
+    color: #086678;
+}
+
+.img-size {
+    width: 600px;
+    height: 330px;
+    /* padding: 0 4%; */
+}
+
+.tag-container {
+    display: flex;
+    justify-content: center; 
+    padding: 2%;
+}
+
+.tag-spacing {
+    margin: 0 1rem;
+}
+
+.html-css-tag-content {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    background: rgba(8, 102, 120, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+.style-tag-content {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    background: rgba(0, 19, 23, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+.js-tag-content {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    background: rgba(96, 149, 158, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+.node-tag-content {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    background: rgba(0, 58, 69, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+.airtable-firebase-tag-content {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    background: rgba(155, 190, 196, 0.75);
+    border-radius: 10px;
+    color: white;
+}
+
+.wix-wordpress-tag-content {
+    background: rgba(132, 174, 181, 0.75);
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.sqlalchemy-tag-content {
+    background: rgba(41, 90, 99, 0.75);
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.flask-tag-content {
+    background: rgba(0, 19, 23, 0.75);
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+.adobe-tag-content {
+    background: rgba(0, 28, 33, 0.75);
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: .4rem;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}

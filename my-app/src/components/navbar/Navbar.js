@@ -4,13 +4,13 @@ function Navbar() {
     return (
         <div className="nav-container">
             <div className="nav-item">
-                <a className="nav-fade" href="#">home</a>
+                <a className="nav-fade" href="/#">home</a>
             </div>
             <div className="nav-item">
-                <a className="nav-fade" href="">projects</a>
+                <a className="nav-fade" href="#projects">projects</a>
             </div>
             <div className="nav-item">
-                <a className="nav-fade" href="">resume</a>
+                <a className="nav-fade" href="/#">resume</a>
             </div>
         </div>
     )
